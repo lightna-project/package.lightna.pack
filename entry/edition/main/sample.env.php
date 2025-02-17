@@ -37,7 +37,11 @@ return [
         //],
     ],
     'project' => [
-        // Give Lightna access to app database
+        // Give Lightna access to app database.
+        // Lightna needs a database at least as a lock provider.
+        // If your project is very simple, and you don't use database,
+        // then use custom plugin to change the implementation
+        // for methods "get" and "release" in Lightna\Engine\App\Lock
         'connection' => [
             'host' => 'localhost',
             'port' => '3306',
