@@ -19,7 +19,7 @@ return [
     'compiler_dir' => 'generated/compiled',
 
     // Relative path to the directory where Lightna will move built assets (CSS, JS, fonts, images, etc)
-    'asset_dir' => 'pub/lightna',
+    'asset_dir' => 'pub/asset',
 
     // Relative path to the document root, required to build the correct URLs to the assets
     'doc_dir' => 'pub',
