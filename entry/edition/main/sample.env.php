@@ -38,13 +38,13 @@ return [
     ],
     'project' => [
         // Give Lightna access to app database
-        //'connection' => [
-        //    'host' => 'localhost',
-        //    'port' => '3306',
-        //    'username' => '****',
-        //    'password' => '****',
-        //    'dbname' => '****',
-        //],
+        'connection' => [
+            'host' => 'localhost',
+            'port' => '3306',
+            'username' => '****',
+            'password' => '****',
+            'dbname' => '****',
+        ],
     ],
     // Configure Elasticsearch if needed
     //'elasticsearch' => [
