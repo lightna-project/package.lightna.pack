@@ -1,5 +1,5 @@
 {
-    "name": "lightna-magento-frontend",
+    "name": "lightna-project",
     "private": true,
     "devDependencies": {
         "autoprefixer": "^10.4.20",
