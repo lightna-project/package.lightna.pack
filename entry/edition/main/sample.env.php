@@ -1,14 +1,9 @@
 <?php
 
 return [
+
+    // Environment mode: 'dev' | 'prod'
     'mode' => 'dev',
-    'router' => [
-        'bypass' => [
-            'rule' => [
-                'url_starts_with' => [],
-            ],
-        ],
-    ],
     'session' => [
         // 'file' and 'redis' are supported out of the box
         // 'redis' requires session_redis storage to be configured in storage section
