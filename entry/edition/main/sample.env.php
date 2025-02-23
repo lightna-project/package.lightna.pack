@@ -42,7 +42,8 @@ return [
             'port' => '3306',
             'username' => '****',
             'password' => '****',
-            'dbname' => '****',
+            // Use null if database is used only as lock provider
+            'dbname' => null,
         ],
     ],
     // Configure Elasticsearch if needed
